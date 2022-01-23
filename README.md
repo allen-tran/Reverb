@@ -43,7 +43,7 @@ model Song {
 }
 ```
 
-### **Arist Table**
+### **Artist Table**
 
 ```PRISMA
 model Artist {

@@ -9,6 +9,7 @@ import {
   Center,
   LinkBox,
   LinkOverlay,
+  Link,
 } from "@chakra-ui/layout";
 import {
   MdHome,
@@ -46,6 +47,8 @@ const musicMenu = [
   },
 ];
 
+const playlists = new Array(30).fill(1).map((_, i) => `Playlist ${i + 1}`);
+
 const Sidebar = () => {
   return (
     <Box
@@ -79,7 +82,6 @@ const Sidebar = () => {
             ))}
           </List>
         </Box>
-        <Divider bg="gray.800" />
         <Box marginTop="20px">
           <List spacing={2}>
             {musicMenu.map((menu) => (
@@ -94,6 +96,20 @@ const Sidebar = () => {
                       />
                       {menu.name}
                     </LinkOverlay>
+                  </NextLink>
+                </LinkBox>
+              </ListItem>
+            ))}
+          </List>
+        </Box>
+        <Divider bg="gray.800" />
+        <Box height="66%" overflowY="auto" paddingY="20px">
+          <List spacing={2}>
+            {playlists.map((playlist) => (
+              <ListItem paddingX="20px" key={playlist}>
+                <LinkBox>
+                  <NextLink href="/" passHref>
+                    <LinkOverlay>{playlist}</LinkOverlay>
                   </NextLink>
                 </LinkBox>
               </ListItem>

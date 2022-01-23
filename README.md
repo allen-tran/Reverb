@@ -9,7 +9,7 @@
 - **Written in:** TypeScript
 - **Authentification:** JWT, Cookies, Bcrypt
 - **Frontend:** Next.js
-- **Backend:** Prisma Postgre Database hosted by Heroku
+- **Backend:** Prisma Postgre Database Hosted by Heroku
 
 ##  <p align="center">Database Schema 🗺</p>
 ### **User Table**

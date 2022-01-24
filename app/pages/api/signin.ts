@@ -12,6 +12,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       email,
     },
   });
+
   if (user && bcrypt.compareSync(password, user.password)) {
     const token = jwt.sign(
       {
@@ -39,6 +40,6 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     res.json(user);
   } else {
     res.status(401);
-    res.json("Email or password is wrong");
+    res.json({ error: "Email or Password is wrong" });
   }
 };

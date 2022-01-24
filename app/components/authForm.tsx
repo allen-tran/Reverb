@@ -15,12 +15,12 @@ const AuthForm: FC<{ mode: "signin" | "signup" }> = ({ mode }) => {
     e.preventDefault();
     setIsLoading(true);
 
-    const user = await auth("signin", { email, password });
+    await auth("signin", { email, password });
     setIsLoading(false);
     router.push("/");
   };
   return (
-    <Box height="100vh" width="100vw" bg="black">
+    <Box height="100vh" width="100vw" bg="black" color="white">
       <Flex
         justify="center"
         align="center"

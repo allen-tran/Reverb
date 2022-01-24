@@ -8,7 +8,7 @@
 ## <p align="center">Tech Stack 💼</p>
 - **Written in:** TypeScript
 - **Authentification:** JWT, Cookies, Bcrypt
-- **Frontend:** Next.js
+- **Frontend:** Next.js, React.js
 - **Backend:** Prisma Postgre Database Hosted by Heroku
 
 ##  <p align="center">Database Schema 🗺</p>

@@ -1,5 +1,5 @@
 #  <p align="center">reverb! - Listen to Your Favorite Music Locally 🎧</p>
-*This is fullstack mock of one of my favorite applications ever: Spotify! Authentfiication, relational databases, serverless functions, and much more are implemented. Users can sign up, create playlists, like songs and of course - listen to their favorite tunes 🎵*
+*This is fullstack mock of one of my favorite applications ever: Spotify! Authentfication, relational databases, serverless functions, and much more are all implemented to give the closest experience to Spotify as possible. Users can sign up, create playlists, like songs and of course - listen to their favorite tunes 🎵*
 
 ## <p align="center">Table of Contents 🗞️</p>
 1. [Tech Stack](#tech-stack-)

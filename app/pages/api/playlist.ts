@@ -7,7 +7,7 @@ export default validateRoute(async (req, res, user) => {
       userId: user.id,
     },
     orderBy: {
-      name: "asc",
+      updatedAt: "asc",
     },
   });
 

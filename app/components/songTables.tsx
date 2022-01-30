@@ -1,6 +1,6 @@
 import { Box } from "@chakra-ui/layout";
 import { Table, Thead, Td, Tr, Tbody, Th, IconButton } from "@chakra-ui/react";
-import { BsFillPlayFill, BsPersonX } from "react-icons/bs";
+import { BsFillPlayFill } from "react-icons/bs";
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { formatTime, formatDate } from "../lib/formatters";
 

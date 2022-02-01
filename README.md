@@ -11,7 +11,7 @@
 - **Frontend:** Next.js, React.js
 - **Backend:** Prisma Postgres Database Hosted by Heroku
 
-##  <p align="center">Database Schema 🗺</p>
+##  <p align="center">Database Schemas 🗺</p>
 ### **User Table**
 
 ```PRISMA

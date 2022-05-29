@@ -1,17 +1,20 @@
-#  <p align="center">reverb! - Listen to Your Favorite Music Locally 🎧</p>
-*This is fullstack mock of one of my favorite applications ever: Spotify! Authentfication, relational databases, serverless functions, and much more are all implemented to give the closest experience to Spotify as possible. Users can sign up, create playlists, like songs and of course - listen to their favorite tunes 🎵*
+# Reverb 🎧
 
-## <p align="center">Table of Contents 🗞️</p>
+![maxresdefault](https://user-images.githubusercontent.com/63386979/170894496-ca0ad829-cd22-40da-864a-ec8a39e0080a.jpeg)
+
+This is fullstack replica of one of my favorite applications ever: [Spotify](spotify.com/us/)! Authentfication, relational databases, serverless functions, and much more are all implemented to give the closest experience to Spotify as possible. Users can sign up, create playlists, like songs and of course - listen to their favorite tunes 🎵
+
+## Table of Contents 🗞️
 1. [Tech Stack](#tech-stack-)
 2. [Database Schema](#database-schema-)
 
-## <p align="center">Tech Stack 💼</p>
+## Tech Stack 💼
 - **Written in:** TypeScript
 - **Authentification:** JWT, Cookies, Bcrypt
 - **Frontend:** Next.js, React.js
 - **Backend:** Prisma Postgres Database Hosted by Heroku
 
-##  <p align="center">Database Schemas 🗺</p>
+## Database Schemas 🗺
 ### **User Table**
 
 ```PRISMA
